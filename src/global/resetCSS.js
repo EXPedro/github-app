@@ -38,7 +38,7 @@ html {
 
 body {
   margin: 0;
-  font-family: roboto,sans-serif;
+  font-family: 'Heebo', sans-serif;
 }
 
 /**
