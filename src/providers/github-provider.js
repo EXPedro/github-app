@@ -9,7 +9,6 @@ export const GithubContext = createContext({
 });
 
 const GithubProvider = ({ children }) => {
-  // eslint-disable-next-line no-unused-vars
   const [githubState, setGithubState] = useState({
     loading: false,
     user: {
