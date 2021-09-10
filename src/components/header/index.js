@@ -4,7 +4,7 @@ import useGithub from '../../hooks/github-hooks'
 
 const Header = () => {
     const {getUser} = useGithub();
-    const [userNameForSearch, getUserNameForSearch] = useState();
+    const [userNameForSearch, setUserNameForSearch] = useState();
 
     const submitGetUser = () =>{
         if(!userNameForSearch) return;
